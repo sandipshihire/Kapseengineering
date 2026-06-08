@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Industrial workshop">
+  <defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fafc"/><stop offset="1" stop-color="#cbd5df"/></linearGradient><pattern id="p" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#1f2937" stroke-opacity=".08"/></pattern></defs>
+  <rect width="1200" height="800" fill="url(#a)"/><rect width="1200" height="800" fill="url(#p)"/>
+  <rect x="70" y="528" width="1060" height="110" fill="#2f3741"/><rect x="105" y="190" width="360" height="345" rx="16" fill="#17202a"/><rect x="150" y="235" width="270" height="90" rx="10" fill="#f26a21"/><rect x="560" y="170" width="470" height="380" rx="16" fill="#26313b"/><rect x="615" y="228" width="360" height="170" rx="10" fill="#d8dee6"/><circle cx="700" cy="520" r="58" fill="#111827" stroke="#f26a21" stroke-width="18"/><circle cx="930" cy="520" r="58" fill="#111827" stroke="#8a96a3" stroke-width="18"/><path d="M120 640H1080" stroke="#f26a21" stroke-width="12" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Dynamic balancing service">
+  <defs><radialGradient id="c" cx=".5" cy=".45" r=".7"><stop stop-color="#4b5563"/><stop offset=".65" stop-color="#17202a"/><stop offset="1" stop-color="#0b0f14"/></radialGradient></defs>
+  <rect width="1200" height="800" fill="url(#c)"/>
+  <circle cx="600" cy="380" r="245" fill="none" stroke="#f26a21" stroke-width="34"/><circle cx="600" cy="380" r="150" fill="none" stroke="#e5e7eb" stroke-width="30"/><circle cx="600" cy="380" r="56" fill="#f26a21"/><rect x="225" y="350" width="750" height="60" rx="30" fill="#f8fafc"/><rect x="570" y="5" width="60" height="750" rx="30" fill="#f8fafc"/><path d="M210 650C380 590 550 700 720 630C850 576 945 602 1030 558" fill="none" stroke="#f26a21" stroke-width="16" stroke-linecap="round"/>
+</svg>

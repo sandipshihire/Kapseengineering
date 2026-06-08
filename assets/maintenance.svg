@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Heavy machine maintenance">
+  <rect width="1200" height="800" fill="#202830"/><path d="M0 0H1200V230H0Z" fill="#f26a21" opacity=".9"/>
+  <rect x="125" y="260" width="950" height="300" rx="18" fill="#e5e7eb"/><rect x="180" y="315" width="300" height="145" rx="12" fill="#27313b"/><rect x="545" y="315" width="475" height="145" rx="12" fill="#6b7280"/><path d="M230 625L440 415" stroke="#f26a21" stroke-width="46" stroke-linecap="round"/><path d="M440 625L230 415" stroke="#dbe2ea" stroke-width="46" stroke-linecap="round"/><circle cx="875" cy="610" r="92" fill="none" stroke="#f26a21" stroke-width="30"/>
+</svg>

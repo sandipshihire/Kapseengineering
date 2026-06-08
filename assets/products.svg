@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Precision engineering products">
+  <rect width="1200" height="800" fill="#eef2f6"/><path d="M0 0H1200V800H0Z" fill="none" stroke="#d1d7df" stroke-width="28"/>
+  <circle cx="320" cy="350" r="155" fill="#f26a21"/><circle cx="320" cy="350" r="82" fill="#eef2f6"/><circle cx="320" cy="350" r="38" fill="#27313b"/>
+  <rect x="520" y="230" width="390" height="85" rx="42" fill="#27313b"/><rect x="520" y="360" width="500" height="85" rx="42" fill="#6b7280"/><rect x="520" y="490" width="310" height="85" rx="42" fill="#f26a21"/>
+  <circle cx="960" cy="274" r="68" fill="none" stroke="#f26a21" stroke-width="24"/><circle cx="900" cy="533" r="80" fill="none" stroke="#27313b" stroke-width="24"/>
+</svg>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Admin | Kapse Engineering</title>
+  <meta name="robots" content="noindex">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body class="admin-body">
+  <nav class="navbar navbar-expand-lg fixed-top inner-nav" data-nav>
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><span class="brand-mark">KE</span><span>Kapse <strong>Engineering</strong></span></a>
+      <a class="btn btn-orange" href="services.html#products">View Products</a>
+    </div>
+  </nav>
+  <main class="section admin-panel">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-5">
+          <span class="section-kicker">Admin Panel</span>
+          <h1>Update Products</h1>
+          <p>This lightweight admin stores product changes in this browser using local storage. Connect it to a backend later for live multi-user publishing.</p>
+          <form class="contact-form" data-admin-form>
+            <label>Product Name<input name="name" required></label>
+            <label>Description<textarea name="description" rows="4" required></textarea></label>
+            <label>Image URL<input name="image" required></label>
+            <button class="btn btn-orange" type="submit">Add Product</button>
+            <button class="btn btn-outline-orange" type="button" data-reset-products>Reset Products</button>
+          </form>
+        </div>
+        <div class="col-lg-7">
+          <div class="product-grid admin-products" data-product-grid></div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
