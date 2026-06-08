@@ -58,6 +58,31 @@ const getProducts = () => {
 
 const setProducts = products => localStorage.setItem("kapseProducts", JSON.stringify(products));
 
+// ========== MOBILE MENU HANDLING =========
+// Close hamburger menu when a link is clicked (mobile only)
+const navbarToggler = document.querySelector(".navbar-toggler");
+const navbarCollapse = document.getElementById("mainNav");
+
+if (navbarCollapse) {
+  document.querySelectorAll(".navbar-nav .nav-link, .navbar-nav .btn").forEach(link => {
+    link.addEventListener("click", () => {
+      if (navbarToggler && navbarCollapse.classList.contains("show")) {
+        navbarToggler.click();
+      }
+    });
+  });
+}
+
+// Close menu when clicking outside
+document.addEventListener("click", (e) => {
+  if (navbarCollapse && navbarCollapse.classList.contains("show")) {
+    if (!e.target.closest(".navbar")) {
+      navbarToggler?.click();
+    }
+  }
+});
+
+// ========== PAGE LOAD AND ANIMATIONS =========
 window.addEventListener("load", () => {
   document.querySelector(".loader")?.classList.add("loaded");
 });
@@ -70,10 +95,20 @@ document.querySelectorAll("[data-year]").forEach(el => {
   el.textContent = new Date().getFullYear();
 });
 
+// ========== NAVIGATION SCROLL EFFECT =========
 const nav = document.querySelector("[data-nav]");
 const setNavState = () => nav?.classList.toggle("scrolled", window.scrollY > 20);
 setNavState();
 window.addEventListener("scroll", setNavState, { passive: true });
+
+// ========== PREVENT BODY SCROLL ON MOBILE WHEN MENU OPEN =========
+let isMenuOpen = false;
+if (navbarToggler) {
+  navbarToggler.addEventListener("click", () => {
+    isMenuOpen = !isMenuOpen;
+    document.body.style.overflow = isMenuOpen ? "hidden" : "auto";
+  });
+}
 
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
